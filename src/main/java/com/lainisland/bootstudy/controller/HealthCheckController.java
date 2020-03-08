@@ -16,7 +16,7 @@ public class HealthCheckController {
 
   @GetMapping
   public String checkServer() {
-    log.info("Server Check API: OK!");
+    log.info("[API] Check server: OK!");
     return "OK!";
   }
 }
